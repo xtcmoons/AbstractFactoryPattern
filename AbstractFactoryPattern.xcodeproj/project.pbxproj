@@ -14,6 +14,9 @@
 		10DB19001B6D811800FB88B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DB18FF1B6D811800FB88B4 /* Images.xcassets */; };
 		10DB19031B6D811800FB88B4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10DB19011B6D811800FB88B4 /* LaunchScreen.xib */; };
 		10DB190F1B6D811800FB88B4 /* AbstractFactoryPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DB190E1B6D811800FB88B4 /* AbstractFactoryPatternTests.m */; };
+		10DB191A1B6D815300FB88B4 /* BrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DB19191B6D815300FB88B4 /* BrandingFactory.m */; };
+		10DB191D1B6D818200FB88B4 /* AcmeBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DB191C1B6D818200FB88B4 /* AcmeBrandingFactory.m */; };
+		10DB19201B6D819500FB88B4 /* SierraBrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DB191F1B6D819500FB88B4 /* SierraBrandingFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		10DB19081B6D811800FB88B4 /* AbstractFactoryPatternTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AbstractFactoryPatternTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DB190D1B6D811800FB88B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10DB190E1B6D811800FB88B4 /* AbstractFactoryPatternTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryPatternTests.m; sourceTree = "<group>"; };
+		10DB19181B6D815300FB88B4 /* BrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandingFactory.h; sourceTree = "<group>"; };
+		10DB19191B6D815300FB88B4 /* BrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandingFactory.m; sourceTree = "<group>"; };
+		10DB191B1B6D818200FB88B4 /* AcmeBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcmeBrandingFactory.h; sourceTree = "<group>"; };
+		10DB191C1B6D818200FB88B4 /* AcmeBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcmeBrandingFactory.m; sourceTree = "<group>"; };
+		10DB191E1B6D819500FB88B4 /* SierraBrandingFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SierraBrandingFactory.h; sourceTree = "<group>"; };
+		10DB191F1B6D819500FB88B4 /* SierraBrandingFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SierraBrandingFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				10DB18F71B6D811800FB88B4 /* AppDelegate.m */,
 				10DB18F91B6D811800FB88B4 /* ViewController.h */,
 				10DB18FA1B6D811800FB88B4 /* ViewController.m */,
+				10DB19181B6D815300FB88B4 /* BrandingFactory.h */,
+				10DB19191B6D815300FB88B4 /* BrandingFactory.m */,
+				10DB191B1B6D818200FB88B4 /* AcmeBrandingFactory.h */,
+				10DB191C1B6D818200FB88B4 /* AcmeBrandingFactory.m */,
+				10DB191E1B6D819500FB88B4 /* SierraBrandingFactory.h */,
+				10DB191F1B6D819500FB88B4 /* SierraBrandingFactory.m */,
 				10DB18FC1B6D811800FB88B4 /* Main.storyboard */,
 				10DB18FF1B6D811800FB88B4 /* Images.xcassets */,
 				10DB19011B6D811800FB88B4 /* LaunchScreen.xib */,
@@ -220,6 +235,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				10DB18FB1B6D811800FB88B4 /* ViewController.m in Sources */,
+				10DB19201B6D819500FB88B4 /* SierraBrandingFactory.m in Sources */,
+				10DB191D1B6D818200FB88B4 /* AcmeBrandingFactory.m in Sources */,
+				10DB191A1B6D815300FB88B4 /* BrandingFactory.m in Sources */,
 				10DB18F81B6D811800FB88B4 /* AppDelegate.m in Sources */,
 				10DB18F51B6D811800FB88B4 /* main.m in Sources */,
 			);

@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "AcmeBrandingFactory.h"
+#import "SierraBrandingFactory.h"
 
 @interface ViewController ()
 
@@ -15,13 +17,19 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    
+    BrandingFactory *acmeFactory = [AcmeBrandingFactory factory];
+    [acmeFactory brandedView];
+    [acmeFactory brandedMainButton];
+    
+    
+    BrandingFactory *sierraFactory = [SierraBrandingFactory factory];
+    [sierraFactory brandedView];
+    [sierraFactory brandedMainButton];
 }
 
 @end
